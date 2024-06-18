@@ -3,11 +3,12 @@ body{
     margin: 0;
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: auto 4fr;
-    -ms-grid-columns: 1fr 4fr;
-        grid-template: auto 4fr/ 1fr 4fr;
+    -ms-grid-rows: auto 6fr;
+    -ms-grid-columns: 1fr 6fr;
+        grid-template: auto 6fr/ 1fr 6fr;
 }
 
+/* SIDEBAR  */
 #sidebar_container{
     background-color: #1992D4;
     display: grid;
@@ -21,6 +22,17 @@ body{
         grid-template-rows: auto auto 1fr;
     color: white;
     padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.sidebar_logo{
+    display: flex;
+}
+
+.sidebar_logo svg{
+    fill: white;
+    width: 3rem;
 }
 
 #sidebar_container a{
@@ -45,14 +57,14 @@ body{
 }
 
 .sidebar_links li{
-    /* font-size: 1.2rem; */
-    /* padding: 10px; */
     margin: 20px 0 ;
 }
 
 .sidebar_main_links{
     margin-bottom: 50px;
 }
+
+/* SIDEBAR END */
 
 #header_container{
     background-color: #FFFFFF;
