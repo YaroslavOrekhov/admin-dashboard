@@ -66,6 +66,7 @@ body{
 
 /* SIDEBAR END */
 
+/* HEADER */
 #header_container{
     background-color: #FFFFFF;
     -ms-grid-row: 1;
@@ -78,6 +79,59 @@ body{
         grid-template: auto 1fr / 2fr 1fr;
     padding: 0.5rem 2rem;
 }
+
+.search_bar{
+    display: flex;
+    padding-right: 5rem;
+}
+
+.search_button{
+    /* width: 20px; */
+}
+
+#header_container svg{
+    fill: #010101;
+    width: 20px;
+}
+
+.search_barline{
+    background-color: #E2E8F0;
+    height: 25px;
+    border-radius: 2rem;
+    width: -webkit-fill-available;
+}
+
+.profile_attribute {
+    display: flex;
+}
+
+.profile_icon{
+    background-color: #e2e8f0;
+    border-radius: 100%;
+}
+
+.profile_logo_size {
+    width: 3rem;
+}
+
+.profile_infologo_size {
+    width: 5rem;
+}
+
+.profile_buttons{
+    display: flex;
+}
+
+.header_button {
+    background-color: #1992D4;
+    padding: .5rem 1.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+/* HEADER END */
+
 
 #main_container{
     background-color: #E2E8F0;
