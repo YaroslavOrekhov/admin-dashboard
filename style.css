@@ -21,7 +21,7 @@ body{
     -ms-grid-rows: auto auto 1fr;
         grid-template-rows: auto auto 1fr;
     color: white;
-    padding: 1rem;
+    padding: .5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
@@ -77,12 +77,18 @@ body{
     -ms-grid-rows: auto 1fr;
     -ms-grid-columns: 2fr 1fr;
         grid-template: auto 1fr / 2fr 1fr;
-    padding: 0.5rem 2rem;
+    padding: 1rem ;
+    padding-top: 1.5rem;
+    box-sizing: border-box;
+    align-items: center;
 }
 
 .search_bar{
     display: flex;
-    padding-right: 5rem;
+    justify-content: center;
+    vertical-align: middle;
+    /* padding-top: 1rem; */
+    /* padding-right: 5rem; */
 }
 
 .search_button{
@@ -105,6 +111,11 @@ body{
     display: flex;
 }
 
+.profile_attribute div {
+    margin: 0 .5rem;
+    display: flex;
+}
+
 .profile_icon{
     background-color: #e2e8f0;
     border-radius: 100%;
@@ -114,8 +125,31 @@ body{
     width: 3rem;
 }
 
+.profile {
+    display: flex;    
+}
+
 .profile_infologo_size {
     width: 5rem;
+    margin-right: 1rem;
+}
+
+.profile_name {
+    align-items: center;
+}
+
+.profile_username {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.profile_info {
+    display: flex;
+}
+
+.profile_status {
+    margin: 0;
+    margin-bottom: .5rem;
 }
 
 .profile_buttons{
